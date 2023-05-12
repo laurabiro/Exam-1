@@ -32,3 +32,119 @@ img, picture, svg, video {
 /* --- Variables --- */
 
 
+body {
+    background-color: #ffeedf;
+    font-family: Space Grotesk;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #145434;
+    border-bottom: #145434 solid 2px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+#menu {
+   font-size: 30px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+section {
+    
+    max-width: 750px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+    margin: 50px;
+
+}
+article {
+    background-color: #145434;
+    color:#ffeedf;
+
+    padding: 30px;
+    margin-top: 40px;
+
+    flex: 1 1 240px;
+
+    position: relative;
+
+}
+article p:nth-child(3) {
+    margin-top: 5px;
+    
+}
+article p:nth-child(4) {
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 50px;
+    border-bottom: #ffeedf solid 2px;
+}
+
+button {
+    background-color: #ffeedf;
+    border:#145434 solid 2px;
+    color:#145434;
+
+    padding: 10px 50px;
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+
+    right: -5%;
+    bottom: -5%;
+}
+button p:first-child {
+    font-size: 14px;
+}
+button i:nth-child(2) {
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+}
+
+
+div {
+
+    background-color: #ffeedf;
+    color:#145434;
+    border-radius: 50%;
+    line-height: 18px;
+    border:#145434 solid 2px;
+    font-size: 20px;
+
+    padding: 5px 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    top: -8%;
+    left: -5%;
+
+}
